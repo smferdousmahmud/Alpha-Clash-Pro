@@ -93,8 +93,9 @@ function gameOver(){
      hideElementById('play-ground');
      showElementById('final-score');
      // update final score 
-     //1 get the final score
 
+     
+     //1 get the final score
      const lastScore = getTextElementValueById('current-score');
      console.log(lastScore);
      setElementValueById( 'last-score', lastScore);
@@ -103,6 +104,4 @@ function gameOver(){
      const currentAlphabet = getElementTextById('current-alphabet')
      console.log(currentAlphabet);
      removeBackgroundColorById(currentAlphabet);
-
-
 }
